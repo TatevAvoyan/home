@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/home19_09.dir/main.cpp.o -o home19_09 
