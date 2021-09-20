@@ -1,100 +1,41 @@
 #include <iostream>
 using namespace std;
 
-class Building{
-    int storeys_quantity;
-    int planned_sum;
-    int allocated_amount;
-    char location[60];
-public:
-    int build_floors(int increased_amount){
-        if(planned_sum < allocated_amount ){
-            storeys_quantity + 1;
-            increased_amount = allocated_amount - planned_sum;
-        }
-        return increased_amount;
-    }
-    void build_location(){
-        cout << "The building will be located in " << location ;
-    }
-    void build_greeting_speech(){
-        if(planned_sum < allocated_amount){
-            cout << "Welcome to our " << storeys_quantity + 1 << " storey building.";
-        } else {
-            cout << "Welcome to our " << storeys_quantity  << " storey building.";
-        }
-    }
-
-};
-
-struct Cat{
-    char name[20];
-    int age;
-    double weight;
-};
-
-struct Computer{
-    char name[20];
-    int ram;
-    int ssd;
-};
-
-const int length = 5;
-struct User{
-    char name[10];
-    char surname[10];
-    int age;
-    double weight;
-    int appraisals[length];
-    Cat lynda;
-    Computer laptop;
-};
-
-struct Build{
-    int doors_number;
+class Animals{
+    string species;
+    string type;
+    double age;
     double length;
-    User u[];
+    double weight;
+
+public:
+    void set_animal_type(string species, string type){
+        this->species = species;
+        this->type = type;
+    }
+    void get_animal_type(){
+        cout << "The animal is " << this->species << " it is " << this->type << "\n";
+    }
+    void set_animals_sizes(double age, double length, double weight){
+        this->age = age;
+        this->length = length;
+        this->weight = weight;
+    }
+    void get_animals_sizes(){
+        cout << this->species << " is " << this->age  << " age "  << this->length  << "m and " << this->weight << "kg \n";
+    }
+
+
 };
-
-
-void a(User *u){
-    (*u).lynda.age = 2;
-    (*u).lynda.weight = 2.3;
-    (*u).weight = 1.78;
-    (*u).age = 23;
-    (*u).laptop.ssd = 512;
-    (*u).laptop.ram = 32;
-    cout << "Enter Your Name. \n";
-    cin >> (*u).name;
-    cout << "Enter Your Surname. \n";
-    cin >> (*u).surname;
-    cout << "Enter User cat name \n";
-    cin >> (*u).lynda.name;
-    cout << "Enter User laptop brand \n";
-    cin >> (*u).laptop.name;
-    /*u.appraisals[0] = 4; u.appraisals[1] = 8; u.appraisals[2] = 6; u.appraisals[3] = 10; u.appraisals[4] = 9;
-    for (int i = 0; i < length; i++) {
-        cout << "array - " << u.appraisals[i] << "\n" ;
-    }*/
-    cout << (*u).surname << "\n" << (*u).name << " age " << (*u).age << " weight " << (*u).weight << "\n";
-    cout << "User cat name " << (*u).lynda.name << "\n";
-    cout << "User cat age " << (*u).lynda.age << "\n";
-    cout << "User cat weight " << (*u).lynda.weight << "\n";
-    cout << "User laptop brand is " << (*u).laptop.name << "\n";
-    cout << "User laptop ram is " << (*u).laptop.ram << "gb \n";
-    cout << "User laptop ssd is " << (*u).laptop.ssd << "gb \n";
-}
 
 
 int main() {
 
-    User user1;
-    Build user_house;
-    user_house.length = 12.7;
-    user_house.doors_number = 56;
-    user_house.u[length] = {{53, 65}, {54, 64}};
-    user_house.u[length].age = 34;
-    a(&user1);
+    Animals zebra;
+    zebra.set_animal_type("Zebra", "mammal");
+    zebra.get_animal_type();
+    zebra.set_animals_sizes(2.5, 45.5, 34.4);
+    zebra.get_animals_sizes();
 
     return 0;
 }
