@@ -129,6 +129,30 @@ home19_09/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/home19_09.dir/build.make CMakeFiles/home19_09.dir/build
 .PHONY : home19_09/fast
 
+func0.o: func0.cpp.o
+.PHONY : func0.o
+
+# target to build an object file
+func0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/home19_09.dir/build.make CMakeFiles/home19_09.dir/func0.cpp.o
+.PHONY : func0.cpp.o
+
+func0.i: func0.cpp.i
+.PHONY : func0.i
+
+# target to preprocess a source file
+func0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/home19_09.dir/build.make CMakeFiles/home19_09.dir/func0.cpp.i
+.PHONY : func0.cpp.i
+
+func0.s: func0.cpp.s
+.PHONY : func0.s
+
+# target to generate assembly for a file
+func0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/home19_09.dir/build.make CMakeFiles/home19_09.dir/func0.cpp.s
+.PHONY : func0.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... home19_09"
+	@echo "... func0.o"
+	@echo "... func0.i"
+	@echo "... func0.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

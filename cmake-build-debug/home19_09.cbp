@@ -82,7 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/first_struct.h">
+			<Option target="home19_09"/>
+		</Unit>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/func0.cpp">
+			<Option target="home19_09"/>
+		</Unit>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/func0.h">
+			<Option target="home19_09"/>
+		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/main.cpp">
+			<Option target="home19_09"/>
+		</Unit>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/second_struct.h">
+			<Option target="home19_09"/>
+		</Unit>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/third_struct.h">
 			<Option target="home19_09"/>
 		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/CMakeLists.txt">

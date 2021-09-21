@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/tatev/Desktop/Home work/home18_09/func0.cpp" "/home/tatev/Desktop/Home work/home18_09/cmake-build-debug/CMakeFiles/home19_09.dir/func0.cpp.o"
   "/home/tatev/Desktop/Home work/home18_09/main.cpp" "/home/tatev/Desktop/Home work/home18_09/cmake-build-debug/CMakeFiles/home19_09.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
