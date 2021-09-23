@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/tatev/Desktop/Home work/home18_09/main.cpp
+/home/tatev/Desktop/Home work/home18_09/first_struct.h
+second_struct.h
+/home/tatev/Desktop/Home work/home18_09/second_struct.h
+third_struct.h
+/home/tatev/Desktop/Home work/home18_09/third_struct.h
+
+/home/tatev/Desktop/Home work/home18_09/func0.cpp
 iostream
--
+/home/tatev/Desktop/Home work/home18_09/iostream
+func0.h
+/home/tatev/Desktop/Home work/home18_09/func0.h
+
+/home/tatev/Desktop/Home work/home18_09/func0.h
+first_struct.h
+/home/tatev/Desktop/Home work/home18_09/first_struct.h
+
+/home/tatev/Desktop/Home work/home18_09/second_struct.h
+
+/home/tatev/Desktop/Home work/home18_09/third_struct.h
 
