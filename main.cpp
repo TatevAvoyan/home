@@ -37,6 +37,6 @@ int main() {
     zebra.set_animals_sizes(2.5, 45.5, 34.4);
     zebra.get_animals_sizes();
 
-    
+
     return 0;
 }
