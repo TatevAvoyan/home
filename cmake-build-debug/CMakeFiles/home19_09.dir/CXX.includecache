@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/tatev/Desktop/Home work/home18_09/classes.h
+iostream
+/home/tatev/Desktop/Home work/home18_09/iostream
+structs_for_building.h
+/home/tatev/Desktop/Home work/home18_09/structs_for_building.h
+
 /home/tatev/Desktop/Home work/home18_09/main.cpp
 iostream
 -
+classes.h
+/home/tatev/Desktop/Home work/home18_09/classes.h
+
+/home/tatev/Desktop/Home work/home18_09/structs_for_building.h
+iostream
+/home/tatev/Desktop/Home work/home18_09/iostream
 

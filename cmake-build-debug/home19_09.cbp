@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/classes.h">
+			<Option target="home19_09"/>
+		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/main.cpp">
+			<Option target="home19_09"/>
+		</Unit>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/structs_for_building.h">
 			<Option target="home19_09"/>
 		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/CMakeLists.txt">
