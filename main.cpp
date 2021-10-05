@@ -1,4 +1,3 @@
-#include <iostream>
 #include "classes.h"
 
 int main() {
@@ -58,19 +57,19 @@ int main() {
     // End structs data
 
     // This is second class (Constructor)
-    First_building build("Baker street", 4, "south-west", apartment_residents);
+    First_building build("Baker street", 4, "south-west", &apartment_residents);
 
     // This is first class: Plan
     build.set_data(ben, kitchen, pantry, dining_room, bedroom);
 
     // վերադարձրել է Ճարտարապետի տվյալները;
     Architect data = build.get_architect();
-    cout << "The architect of the plan is " << data.name << data.surname << ". He is "
+    std::cout << "The architect of the plan is " << data.name << data.surname << ". He is "
     << data.age << " years old and has " << data.work_experience << " years of work experience. \n";
 
     // վերադարձրել է շենքի ընդհանուր քառակուսի մետրը
     double sqm = build.get_build_sqm();
-    cout << "The total area of the house is " << sqm << " square meter. \n";
+    std::cout << "The total area of the house is " << sqm << " square meter. \n";
 
     // Կանչել է առաջին կլասսի մեթոդները երկրորդ կլասի միջոցով
     build.get_kitchen();
@@ -81,7 +80,7 @@ int main() {
     // Կանչել է երկրորդ կլասսի մեթոդները
     build.get_address();
     build.get_floor();
-    build.get_position();
+    build.get_address();
     build.get_residents();
 
     return 0;

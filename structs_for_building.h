@@ -1,11 +1,9 @@
 #pragma once
 #include "iostream"
-using namespace std;
-
 
 struct Architect{
-    string name;
-    string surname;
+    std::string name;
+    std::string surname;
     int age;
     double work_experience;
 };
@@ -14,7 +12,7 @@ struct Doors{
     int quantity;
     double length;
     double width;
-    string color;
+    std::string color;
 };
 
 struct Windows{
@@ -22,7 +20,7 @@ struct Windows{
     int window_rows;
     double length;
     double width;
-    string color;
+    std::string color;
 };
 
 struct Kitchen{
@@ -59,5 +57,5 @@ struct Bedroom{
 const int len = 2;
 struct Apartment_residents{
     int quantity;
-    string resident[len];
+    std::string resident[len];
 };
