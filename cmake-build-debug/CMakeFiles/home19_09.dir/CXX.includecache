@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/tatev/Desktop/Home work/home18_09/base_class.h
+iostream
+/home/tatev/Desktop/Home work/home18_09/iostream
+
 /home/tatev/Desktop/Home work/home18_09/classes.h
-structs_for_building.h
-/home/tatev/Desktop/Home work/home18_09/structs_for_building.h
+base_class.h
+/home/tatev/Desktop/Home work/home18_09/base_class.h
+third_class.h
+/home/tatev/Desktop/Home work/home18_09/third_class.h
 
 /home/tatev/Desktop/Home work/home18_09/main.cpp
 classes.h
 /home/tatev/Desktop/Home work/home18_09/classes.h
 
-/home/tatev/Desktop/Home work/home18_09/structs_for_building.h
+/home/tatev/Desktop/Home work/home18_09/third_class.h
 iostream
 /home/tatev/Desktop/Home work/home18_09/iostream
 

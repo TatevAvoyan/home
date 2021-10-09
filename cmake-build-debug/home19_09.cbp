@@ -82,13 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/base_class.h">
+			<Option target="home19_09"/>
+		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/classes.h">
 			<Option target="home19_09"/>
 		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/main.cpp">
 			<Option target="home19_09"/>
 		</Unit>
-		<Unit filename="/home/tatev/Desktop/Home work/home18_09/structs_for_building.h">
+		<Unit filename="/home/tatev/Desktop/Home work/home18_09/third_class.h">
 			<Option target="home19_09"/>
 		</Unit>
 		<Unit filename="/home/tatev/Desktop/Home work/home18_09/CMakeLists.txt">
